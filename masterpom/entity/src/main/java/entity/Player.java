@@ -5,40 +5,39 @@ import java.awt.image.BufferedImage;
 /**
  * The class Player.
  *
- * 
+ * @author Mathéo
  */
 
 public class Player extends Mobile{
+	/**
+	*Variable 
+	*
+	*/
+	protected static boolean isExplodable;
+	/**
+	*Variable 
+	*
+	*/
+	protected static boolean isUnique = true;
+	/**
+	*Variable 
+	*
+	*/
+	protected static boolean isMobile = true; 
+	/**
+	*Variable 
+	*
+	*/
+	protected static boolean isConsomable; 
+	
+	
 	
 	public Player() {
 		
 	}
 
-	@Override
-	public boolean IsUnique() {
-		
-		return false;
-	}
 
-	@Override
-	public boolean IsMobile() {
-		
-		return false;
-	}
-
-	@Override
-	public boolean IsConsomable() {
-		
-		return false;
-	}
-
-	@Override
-	public boolean IsExplodable() {
-		
-		return false;
-	}
-
-
+	
 
 	@Override
 	public BufferedImage getSprite() {

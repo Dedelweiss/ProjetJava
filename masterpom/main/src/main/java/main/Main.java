@@ -4,8 +4,8 @@
  */
 package main;
 
-import contract.ControllerOrder;
-import controller.Controller;
+//import contract.ControllerOrder;
+//import controller.Controller;
 import model.Model;
 import view.View;
 
@@ -15,6 +15,7 @@ import view.View;
  * @author Jean-Aymeric Diet
  */
 public abstract class Main {
+	
 
     /**
      * The main method.
@@ -30,5 +31,5 @@ public abstract class Main {
 
         controller.control();
         controller.orderPerform(ControllerOrder.English);
-    }
+    }*/
 }

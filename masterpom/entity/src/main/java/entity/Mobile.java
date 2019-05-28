@@ -1,45 +1,15 @@
 package entity;
 
-import java.awt.image.BufferedImage;
+
 
 /**
  * The class Mobile.
  *
- * 
+ * @author matheo
  */
 
-public abstract class Mobile extends Entity{
+public class Mobile extends Entity{
 	
-	@Override
-	public boolean IsUnique() {
-		
-		return false;
-	}
-
-	@Override
-	public boolean IsMobile() {
-	
-		return false;
-	}
-
-	@Override
-	public boolean IsConsomable() {
-
-		return false;
-	}
-
-	@Override
-	public boolean IsExplodable() {
-
-		return false;
-	}
-
-
-	@Override
-	public BufferedImage getSprite() {
-
-		return null;
-	}
 
 
 }

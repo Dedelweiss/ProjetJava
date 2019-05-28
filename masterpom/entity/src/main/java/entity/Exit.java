@@ -5,34 +5,32 @@ import java.awt.image.BufferedImage;
 /**
  * The class Exit.
  *
- * 
+ * @author Mathéo
  */
 
 public class Exit extends Static{
+	/**
+	*Variable 
+	*
+	*/
+	protected static boolean isExplodable;	
+	/**
+	*Variable 
+	*
+	*/
+	protected static boolean isUnique = true;
+	/**
+	*Variable 
+	*
+	*/
+	protected static boolean isMobile; 
+	/**
+	*Variable 
+	*
+	*/
+	protected static boolean isConsomable; 
 	
-	@Override
-	public boolean IsUnique() {
-		
-		return false;
-	}
 
-	@Override
-	public boolean IsMobile() {
-	
-		return false;
-	}
-
-	@Override
-	public boolean IsConsomable() {
-
-		return false;
-	}
-
-	@Override
-	public boolean IsExplodable() {
-
-		return false;
-	}
 
 
 
