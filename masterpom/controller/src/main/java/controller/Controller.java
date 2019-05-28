@@ -21,10 +21,8 @@ public final class Controller implements IController {
 	 *
 	 * @param view
 	 *          the view
-	 * @param model
-	 *          the model
 	 */
-	public Controller(final IView view, final IModel model) {
+	public Controller(final IView view) {
 		this.setView(view);
 		this.setModel(model);
 	}
