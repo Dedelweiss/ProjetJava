@@ -8,7 +8,7 @@ import java.awt.image.BufferedImage;
  * 
  */
 
-public class Static extends Entity{
+public class Static implements IEntity{
 
 	@Override
 	public boolean IsUnique() {

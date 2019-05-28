@@ -1,11 +1,5 @@
 package view;
 
-import java.awt.event.KeyEvent;
-
-import javax.swing.SwingUtilities;
-
-import contract.IView;
-
 /**
  * The Class View.
  *

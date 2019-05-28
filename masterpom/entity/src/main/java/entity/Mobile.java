@@ -8,7 +8,7 @@ import java.awt.image.BufferedImage;
  * 
  */
 
-public abstract class Mobile extends Entity{
+public abstract class Mobile implements IEntity{
 	
 	@Override
 	public boolean IsUnique() {

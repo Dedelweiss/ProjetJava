@@ -18,7 +18,7 @@ public class Boulder extends Mobile{
 	/**
 	 * @return false
 	 */
-	@Override
+	
 	public boolean IsUnique() {
 		
 		return false;
@@ -27,35 +27,34 @@ public class Boulder extends Mobile{
 	/**
 	 * @return true
 	 */
-	@Override
+	
 	public boolean IsMobile() {
 	
 		return true;
 	}
 
 	/**
-	 * @return false
+	 *  @return false
 	 */
-	@Override
+	
 	public boolean IsConsomable() {
 
 		return false;
 	}
 
 	/**
-	 * @return true
+	 *  @return true
 	 */
-	@Override
+	
 	public boolean IsExplodable() {
 
 		return true;
 	}
 
-
 	/**
-	 * @return false
+	 *  @return false
 	 */
-	@Override
+	
 	public BufferedImage getSprite() {
 
 		return null ;

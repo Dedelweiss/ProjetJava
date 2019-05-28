@@ -8,7 +8,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class EntityTest {
+public class BoulderTest {
+	private Boulder boulder;
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -20,6 +21,7 @@ public class EntityTest {
 
 	@Before
 	public void setUp() throws Exception {
+		this.boulder = new Boulder();
 	}
 
 	@After
@@ -28,29 +30,42 @@ public class EntityTest {
 
 	@Test
 	public void testIsUnique() {
-		final boolean expected = 
+		final boolean expected = false;
+		
+		assertEquals(expected, boulder.IsUnique());
 	}
 
 	@Test
 	public void testIsMobile() {
-		fail("Not yet implemented");
+		final boolean expected = true;
+		
+		assertEquals(expected, boulder.IsMobile());
 	}
 
 	@Test
 	public void testIsConsomable() {
-		fail("Not yet implemented");
+		final boolean expected = false;
+		
+		assertEquals(expected, boulder.IsConsomable());
 	}
 
 	@Test
 	public void testIsExplodable() {
-		fail("Not yet implemented");
+		final boolean expected = true;
+		
+		assertEquals(expected, boulder.IsExplodable());
 	}
 
 
 
-	@Test
-	public void testGetSprite() {
-		fail("Not yet implemented");
-	}
+	//@Test
+	//public void testGetSprite() {
+	//	fail("Not yet implemented");
+	//}
+
+	//@Test
+	//public void testBoulder() {
+	//	fail("Not yet implemented");
+	//}
 
 }
