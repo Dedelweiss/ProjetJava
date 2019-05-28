@@ -5,34 +5,16 @@ import java.awt.image.BufferedImage;
 /**
  * The class Wall.
  *
- * 
+ * @author Mathéo
  */
 
 public class Wall extends Static{
+	protected static boolean isExplodable;	
+	protected static boolean isUnique;
+	protected static boolean isMobile; 
+	protected static boolean isConsomable; 
 	
-	@Override
-	public boolean IsUnique() {
-		
-		return false;
-	}
 
-	@Override
-	public boolean IsMobile() {
-	
-		return false;
-	}
-
-	@Override
-	public boolean IsConsomable() {
-
-		return false;
-	}
-
-	@Override
-	public boolean IsExplodable() {
-
-		return false;
-	}
 
 
 

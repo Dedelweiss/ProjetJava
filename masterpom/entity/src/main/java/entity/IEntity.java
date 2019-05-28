@@ -5,7 +5,7 @@ import java.awt.image.BufferedImage;
 /**
  * The interface IEntity.
  *
- * 
+ * @author Mathéo
  */
 public interface IEntity {
 	
@@ -14,28 +14,28 @@ public interface IEntity {
 	 * Pour savoir si l'objet est unique. 
 	 * @return true
 	 */
-	boolean IsUnique();
+	public boolean IsUnique(boolean isUnique);
 	
 	/**
 	 * The method IsMobile.
 	 * Pour savoir si l'objet est bougeable. 
 	 *  @return true
 	 */
-	boolean IsMobile();
+	boolean IsMobile(boolean isMobile);
 	
 	/**
 	 * The method IsConsomable.
 	 * Pour savoir si l'objet est consomable . 
 	 * @return true
 	 */
-	boolean IsConsomable();
+	boolean IsConsomable(boolean isConsomable);
 
 	/**
 	 * The method IsExplodable.
 	 * Pour savoir si l'objet est explosable. 
 	 * @return true
 	 */
-	boolean IsExplodable();
+	boolean IsExplodable(boolean isExplodable);
 
 	
 

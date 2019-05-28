@@ -2,6 +2,7 @@ package entity;
 
 import static org.junit.Assert.*;
 
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -32,28 +33,28 @@ public class BoulderTest {
 	public void testIsUnique() {
 		final boolean expected = false;
 		
-		assertEquals(expected, boulder.IsUnique());
+		assertEquals(expected, boulder.IsUnique(expected));
 	}
 
 	@Test
 	public void testIsMobile() {
 		final boolean expected = true;
 		
-		assertEquals(expected, boulder.IsMobile());
+		assertEquals(expected, boulder.IsMobile(expected));
 	}
 
 	@Test
 	public void testIsConsomable() {
 		final boolean expected = false;
 		
-		assertEquals(expected, boulder.IsConsomable());
+		assertEquals(expected, boulder.IsConsomable(expected));
 	}
 
 	@Test
 	public void testIsExplodable() {
-		final boolean expected = true;
+		final boolean expected = true
 		
-		assertEquals(expected, boulder.IsExplodable());
+		assertEquals(expected, boulder.isExplodable);
 	}
 
 
@@ -62,6 +63,7 @@ public class BoulderTest {
 	//public void testGetSprite() {
 	//	fail("Not yet implemented");
 	//}
+	
 
 	//@Test
 	//public void testBoulder() {

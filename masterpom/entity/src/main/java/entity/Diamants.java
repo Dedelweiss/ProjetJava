@@ -1,49 +1,23 @@
 package entity;
 
-import java.awt.image.BufferedImage;
+
 
 /**
  * The class Diamants.
  *
- * 
+ * @author Mathéo
  */
 
 
 public class Diamants extends Mobile{
+	protected static boolean isExplodable = true;
+	protected static boolean isUnique;
+	protected static boolean isMobile = true; 
+	protected static boolean isConsomable = true; 
 	
 	public Diamants() {
 		
 	}
 
-	@Override
-	public boolean IsUnique() {
-		
-		return false;
-	}
-
-	@Override
-	public boolean IsMobile() {
-		
-		return false;
-	}
-
-	@Override
-	public boolean IsConsomable() {
-	
-		return false;
-	}
-
-	@Override
-	public boolean IsExplodable() {
-		
-		return false;
-	}
-
-
-	@Override
-	public BufferedImage getSprite() {
-		
-		return null;
-	}
 
 }

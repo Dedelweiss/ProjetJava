@@ -5,51 +5,22 @@ import java.awt.image.BufferedImage;
 /**
  * The class Boulder.
  *
- * 
+ * @author Mathéo
  */
 
 public class Boulder extends Mobile{
 	private String Sprite = "boulder.png";
+	protected static boolean isExplodable = true;	
+	protected static boolean isUnique;
+	protected static boolean isMobile = true; 
+	protected static boolean isConsomable; 
+	
 	
 	public Boulder() {
 		
 	}
 	
-	/**
-	 * @return false
-	 */
 	
-	public boolean IsUnique() {
-		
-		return false;
-	}
-
-	/**
-	 * @return true
-	 */
-	
-	public boolean IsMobile() {
-	
-		return true;
-	}
-
-	/**
-	 *  @return false
-	 */
-	
-	public boolean IsConsomable() {
-
-		return false;
-	}
-
-	/**
-	 *  @return true
-	 */
-	
-	public boolean IsExplodable() {
-
-		return true;
-	}
 
 	/**
 	 *  @return false
@@ -59,5 +30,9 @@ public class Boulder extends Mobile{
 
 		return null ;
 	}
+
+
+
+	
 
 }

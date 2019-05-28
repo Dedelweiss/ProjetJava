@@ -1,45 +1,17 @@
 package entity;
 
-import java.awt.image.BufferedImage;
+
 
 /**
  * The class Static.
  *
- * 
+ * @author Mathéo
  */
 
-public class Static implements IEntity{
-
-	@Override
-	public boolean IsUnique() {
-		
-		return false;
-	}
-
-	@Override
-	public boolean IsMobile() {
-		
-		return false;
-	}
-
-	@Override
-	public boolean IsConsomable() {
-		
-		return false;
-	}
-
-	@Override
-	public boolean IsExplodable() {
-		
-		return false;
-	}
+public class Static extends Entity{
 
 
 
-	@Override
-	public BufferedImage getSprite() {
-		
-		return null;
-	}
+
 
 }

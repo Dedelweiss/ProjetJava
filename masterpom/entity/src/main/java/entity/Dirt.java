@@ -5,34 +5,15 @@ import java.awt.image.BufferedImage;
 /**
  * The class Dirt.
  *
- * 
+ * @author Mathéo
  */
 
 public class Dirt extends Static{
+	protected static boolean isExplodable = true;	
+	protected static boolean isUnique;
+	protected static boolean isMobile; 
+	protected static boolean isConsomable = true; 
 	
-	@Override
-	public boolean IsUnique() {
-		
-		return false;
-	}
-
-	@Override
-	public boolean IsMobile() {
-	
-		return false;
-	}
-
-	@Override
-	public boolean IsConsomable() {
-
-		return false;
-	}
-
-	@Override
-	public boolean IsExplodable() {
-
-		return false;
-	}
 
 
 
