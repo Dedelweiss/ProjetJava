@@ -13,7 +13,7 @@ public class Player extends Mobile{
 	*Variable 
 	*
 	*/
-	protected static boolean isExplodable = true;
+	protected static boolean isExplodable;
 	/**
 	*Variable 
 	*

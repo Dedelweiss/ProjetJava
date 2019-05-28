@@ -28,7 +28,7 @@ public class Dirt extends Static{
 	*Variable 
 	*
 	*/
-	protected static boolean isConsomable = true; 
+	protected static boolean isConsomable; 
 	
 
 

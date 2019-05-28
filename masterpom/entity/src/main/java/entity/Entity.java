@@ -29,7 +29,7 @@ public class Entity implements IEntity{
 	*Variable 
 	*
 	*/
-	private boolean isConsomable = false;
+	private boolean isConsomable = false; 
 	
 	/**
 	 * The method IsExplodable.
