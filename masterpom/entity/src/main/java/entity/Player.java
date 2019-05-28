@@ -9,10 +9,25 @@ import java.awt.image.BufferedImage;
  */
 
 public class Player extends Mobile{
-	
+	/**
+	*Variable 
+	*
+	*/
 	protected static boolean isExplodable = true;
+	/**
+	*Variable 
+	*
+	*/
 	protected static boolean isUnique = true;
+	/**
+	*Variable 
+	*
+	*/
 	protected static boolean isMobile = true; 
+	/**
+	*Variable 
+	*
+	*/
 	protected static boolean isConsomable; 
 	
 	

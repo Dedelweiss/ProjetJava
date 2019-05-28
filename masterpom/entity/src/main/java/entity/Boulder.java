@@ -10,9 +10,25 @@ import java.awt.image.BufferedImage;
 
 public class Boulder extends Mobile{
 	private String Sprite = "boulder.png";
-	protected static boolean isExplodable = true;	
+	/**
+	*Variable 
+	*
+	*/
+	protected static boolean isExplodable;
+	/**
+	*Variable 
+	*
+	*/
 	protected static boolean isUnique;
-	protected static boolean isMobile = true; 
+	/**
+	*Variable 
+	*
+	*/
+	protected static boolean isMobile = true;
+	/**
+	*Variable 
+	*
+	*/
 	protected static boolean isConsomable; 
 	
 	

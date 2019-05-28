@@ -10,9 +10,25 @@ package entity;
 
 
 public class Diamants extends Mobile{
-	protected static boolean isExplodable = true;
-	protected static boolean isUnique;
-	protected static boolean isMobile = true; 
+	/**
+	*Variable 
+	*
+	*/
+	protected static boolean isExplodable;	
+	/**
+	*Variable 
+	*
+	*/
+	protected static boolean isUnique;	
+	/**
+	*Variable 
+	*
+	*/
+	protected static boolean isMobile = true; 	
+	/**
+	*Variable 
+	*
+	*/
 	protected static boolean isConsomable = true; 
 	
 	public Diamants() {

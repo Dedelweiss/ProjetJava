@@ -9,9 +9,25 @@ import java.awt.image.BufferedImage;
  */
 
 public class Dirt extends Static{
+	/**
+	*Variable 
+	*
+	*/
 	protected static boolean isExplodable = true;	
+	/**
+	*Variable 
+	*
+	*/
 	protected static boolean isUnique;
+	/**
+	*Variable 
+	*
+	*/
 	protected static boolean isMobile; 
+	/**
+	*Variable 
+	*
+	*/
 	protected static boolean isConsomable = true; 
 	
 

@@ -10,28 +10,64 @@ import java.awt.image.BufferedImage;
 
 public class Entity implements IEntity{
 	
+	/**
+	*Variable 
+	*
+	*/
 	private boolean isExplodable = false; 
+	/**
+	*Variable 
+	*
+	*/
 	private boolean isUnique = false; 
+	/**
+	*Variable 
+	*
+	*/
 	private boolean isMobile = false; 
-	private boolean isConsomable = false; 
+	/**
+	*Variable 
+	*
+	*/
+	private boolean isConsomable = false;
 	
+	/**
+	 * The method IsExplodable.
+	 * Pour savoir si l'objet est explosable. 
+	 * @return false or true en fonction de la classe
+	 */
 	public boolean IsExplodable(boolean isExplodable) {
 		
 		return isExplodable;
 	}
-
+	
+	/**
+	 * The method IsUnique.
+	 * Pour savoir si l'objet est unique. 
+	 * @return false or true en fonction de la classe
+	 */
 	@Override
 	public boolean IsUnique(boolean isUnique) {
 		// TODO Auto-generated method stub
 		return isUnique;
 	}
-
+	
+	/**
+	 * The method IsMobile.
+	 * Pour savoir si l'objet est bougeable. 
+	 *  @return false or true en fonction de la classe
+	 */
 	@Override
 	public boolean IsMobile(boolean isMobile) {
 		// TODO Auto-generated method stub
 		return isMobile;
 	}
-
+	
+	/**
+	 * The method IsConsomable.
+	 * Pour savoir si l'objet est consomable . 
+	 * @return false or true en fonction de la classe
+	 */
 	@Override
 	public boolean IsConsomable(boolean isConsomable) {
 		// TODO Auto-generated method stub
