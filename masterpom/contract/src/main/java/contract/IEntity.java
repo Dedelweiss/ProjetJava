@@ -21,7 +21,7 @@ public interface IEntity {
 	 *  @param isMobile takes the variable according to the class
 	 *  @return isMobile
 	 */
-	boolean IsMobile(boolean isMobile);
+	public boolean IsMobile(boolean isMobile);
 	
 	/**
 	 * The method IsConsomable.
@@ -29,7 +29,7 @@ public interface IEntity {
 	 * @param isConsomable takes the variable according to the class
 	 * @return isConsomable
 	 */
-	boolean IsConsomable(boolean isConsomable);
+	public boolean IsConsomable(boolean isConsomable);
 
 	/**
 	 * The method IsExplodable.
@@ -37,7 +37,7 @@ public interface IEntity {
 	 * @param isExplodable takes the variable according to the class
 	 * @return isExplodable
 	 */
-	boolean IsExplodable(boolean isExplodable);
+	public boolean IsExplodable(boolean isExplodable);
 
 	
 
