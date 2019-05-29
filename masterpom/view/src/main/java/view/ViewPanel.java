@@ -12,8 +12,16 @@ import javax.swing.JPanel;
  */
 class ViewPanel extends JPanel implements Observer {
 
+	/**
+	 * link with the class ViewFrame 
+	 */
 	private ViewFrame viewFrame;
+	
+	/**
+	 * the version of the ViewPanel
+	 */
 	private static final long	serialVersionUID	= -998294702363713521L;
+	
 	
 	public ViewPanel(ViewFrame viewFrame) {
 		// TODO Auto-generated constructor stub
@@ -21,10 +29,19 @@ class ViewPanel extends JPanel implements Observer {
 		viewFrame.getModel().getObservable().addObserver(this);
 	}
 	
-	/*private ViewFrame getViewFrame() {
+	/**
+	 * Gets the view Frame
+	 * @return the view frame
+	 */
+	private ViewFrame getViewFrame() {
 		return this.viewFrame;
-	}*/
+	}
 
+	/**
+	 * Sets the view frame
+	 * @param viewFrame
+	 * 			new view frame
+	 */
 	private void setViewFrame(final ViewFrame viewFrame) {
 		this.viewFrame = viewFrame;
 	}

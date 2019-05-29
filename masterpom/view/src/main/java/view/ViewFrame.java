@@ -26,34 +26,54 @@ class ViewFrame extends JFrame implements KeyListener{
 	private IController controller;
 	
 	/**
-	 * it's to lock the version of the class
+	 * the version of the ViewFrame
 	 */
 	private static final long serialVersionUID = -697358409737458175L;
 
-	
+	/**
+	 * allow the modification of the frame
+	 */
 	public ViewFrame() throws HeadlessException {
 		super();
 		this.buildViewFrame();
 	}
 	
+	/**
+	 * link with the controller
+	 * @return the controller
+	 */
 	private IController getController() {
 		return this.controller;
 	}
 
+	/**
+	 * Sets the controller
+	 * @param controller
+	 * 			new controller
+	 */
 	protected void setController(final IController controller) {
 		this.controller = controller;
 	}
 	
+	/**
+	 * link with the model
+	 * @return the model
+	 */
 	protected IModel getModel() {
 		return this.model;
 	}
 	
+	/**
+	 * Sets the model
+	 * @param model
+	 * 			new model
+	 */
 	private void setModel(final IModel model) {
 		this.model = model;
 	}
 	
 	/**
-	 * creation of the game's frame
+	 * creation and parameter of the game's frame
 	 */
 	
 	private void buildViewFrame() {
@@ -62,14 +82,18 @@ class ViewFrame extends JFrame implements KeyListener{
 		this.setResizable(false);
 		this.addKeyListener(this);
 		this.setAlwaysOnTop(true);
-		this.setContentPane(new ViewPanel(this));
+		//this.setContentPane(new ViewPanel(this));
 		this.setSize(1920 + this.getInsets().left + this.getInsets().right, 1080 + this.getInsets().top + this.getInsets().bottom);
 		this.setLocationRelativeTo(null);
 		this.setTitle("lul");
-		this.setBackground(Color.black);
+		this.getContentPane().setBackground(Color.black);
 	}
 	
-	
+	/**
+	 * Print a message
+	 * @param message
+	 * 			the message
+	 */
 	public void printMessage(final String message) {
 		JOptionPane.showMessageDialog(null, message);
 	}

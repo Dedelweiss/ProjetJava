@@ -26,10 +26,10 @@ public abstract class Main {
     public static void main(final String[] args) {
        // final Model model = new Model();
        final View view = new View();
-       final Controller controller = new Controller(view);
-       view.setController(controller);
+       //final Controller controller = new Controller(view);
+      // view.setController(controller);
 
-        controller.control();
-        controller.orderPerform(ControllerOrder.English);
-    }*/
+       // controller.control();
+       // controller.orderPerform(ControllerOrder.English);
+    }
 }
