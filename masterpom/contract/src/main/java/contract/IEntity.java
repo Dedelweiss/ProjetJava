@@ -1,14 +1,12 @@
-package entity;
+package contract;
 
 import java.awt.image.BufferedImage;
-
 /**
  * The interface IEntity.
  *
  * @author Mathéo
  */
 public interface IEntity {
-	
 	/**
 	 * The method IsUnique.
 	 * Pour savoir si l'objet est unique. 
@@ -45,5 +43,6 @@ public interface IEntity {
 	 * @return Sprite
 	 */
 	BufferedImage getSprite();
+
 
 }

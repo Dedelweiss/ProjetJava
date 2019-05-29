@@ -9,7 +9,7 @@ package entity;
  */
 
 
-public class Diamants extends Mobile{
+public class Diamond extends Mobile{
 	/**
 	*Variable 
 	*
@@ -31,9 +31,9 @@ public class Diamants extends Mobile{
 	*/
 	protected static boolean isConsomable = true; 
 	
-	public Diamants() {
+	public Diamond(Integer x, Integer y) {
+		super(x, y);
 		
 	}
-
 
 }

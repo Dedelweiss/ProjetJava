@@ -9,6 +9,9 @@ import java.awt.image.BufferedImage;
  */
 
 public class Player extends Mobile{
+	private int diamonds;
+
+	private boolean alive;
 	/**
 	*Variable 
 	*
@@ -30,19 +33,43 @@ public class Player extends Mobile{
 	*/
 	protected static boolean isConsomable; 
 	
+	/**
+	 * Constructor 
+	 */
 	
-	
-	public Player() {
+	public Player(Integer x, Integer y) {
+		super(x, y);
+
+		this.alive = true;
+
+		this.diamonds = 0;
 		
 	}
-
-
-	
 
 	@Override
 	public BufferedImage getSprite() {
 		
 		return null;
+	}
+	
+	public void collectDiamond() {
+		this.diamonds = this.diamonds + 1;
+	}
+	
+	public int getDiamondsCount() {
+		return diamonds;
+	}
+	
+	public boolean isAlive() {
+
+		return alive;
+	}
+
+
+	public void die() {
+
+		this.alive = false;
+
 	}
 
 }

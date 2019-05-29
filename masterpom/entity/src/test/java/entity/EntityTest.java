@@ -10,11 +10,12 @@ import org.junit.Test;
 
 public class EntityTest {
 	private Boulder boulder;
-	private Diamants diamants;
+	private Diamond diamants;
 	private Player player; 
 	private Dirt dirt; 
 	private Exit exit;
 	private Wall wall; 
+	private Empty empty;
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -27,11 +28,12 @@ public class EntityTest {
 	@Before
 	public void setUp() throws Exception {
 		this.boulder = new Boulder();
-		this.diamants = new Diamants();
+		this.diamants = new Diamond();
 		this.player = new Player();
 		this.dirt = new Dirt();
 		this.exit = new Exit();
 		this.wall = new Wall();
+		this.empty = new Empty();
 	}
 
 	@After
@@ -45,8 +47,8 @@ public class EntityTest {
 		assertEquals(expected, Boulder.isExplodable);
 		
 		final boolean expected1 = false;
-		System.out.println("Diamants is explodable : " + Diamants.isExplodable);
-		assertEquals(expected1, Diamants.isExplodable);
+		System.out.println("Diamants is explodable : " + Diamond.isExplodable);
+		assertEquals(expected1, Diamond.isExplodable);
 		
 		final boolean expected2 = false;
 		System.out.println("Player is explodable : " + Player.isExplodable);
@@ -63,6 +65,11 @@ public class EntityTest {
 		final boolean expected5 = false;
 		System.out.println("Wall is explodable : " + Wall.isExplodable);
 		assertEquals(expected5, Wall.isExplodable);
+		
+		final boolean expected6 = false;
+		System.out.println("Empty is explodable : " + Empty.isExplodable);
+		assertEquals(expected6, Empty.isExplodable);
+		
 	}
 	
 	@Test
@@ -72,8 +79,8 @@ public class EntityTest {
 		assertEquals(expected, Boulder.isUnique);
 		
 		final boolean expected1 = false;
-		System.out.println("Diamants is unique : " + Diamants.isUnique);
-		assertEquals(expected1, Diamants.isUnique);
+		System.out.println("Diamants is unique : " + Diamond.isUnique);
+		assertEquals(expected1, Diamond.isUnique);
 		
 		final boolean expected2 = true;
 		System.out.println("Player is unique : " + Player.isUnique);
@@ -90,6 +97,10 @@ public class EntityTest {
 		final boolean expected5 = false;
 		System.out.println("Wall is unique : " + Wall.isUnique);
 		assertEquals(expected5, Wall.isUnique);
+		
+		final boolean expected6 = false;
+		System.out.println("Empty is unique : " + Empty.isUnique);
+		assertEquals(expected6, Empty.isUnique);
 	}
 	
 	@Test
@@ -99,8 +110,8 @@ public class EntityTest {
 		assertEquals(expected, Boulder.isMobile);
 		
 		final boolean expected1 = true;
-		System.out.println("Diamants is mobile : " + Diamants.isMobile);
-		assertEquals(expected1, Diamants.isMobile);
+		System.out.println("Diamants is mobile : " + Diamond.isMobile);
+		assertEquals(expected1, Diamond.isMobile);
 		
 		final boolean expected2 = true;
 		System.out.println("Player is mobile : " + Player.isMobile);
@@ -117,6 +128,10 @@ public class EntityTest {
 		final boolean expected5 = false;
 		System.out.println("Wall is mobile : " + Wall.isMobile);
 		assertEquals(expected5, Wall.isMobile);
+		
+		final boolean expected6 = false;
+		System.out.println("Empty is mobile : " + Empty.isMobile);
+		assertEquals(expected6, Empty.isMobile);
 	}
 	
 	@Test
@@ -126,8 +141,8 @@ public class EntityTest {
 		assertEquals(expected, Boulder.isConsomable);
 		
 		final boolean expected1 = true;
-		System.out.println("Diamants is consomable : " + Diamants.isConsomable);
-		assertEquals(expected1, Diamants.isConsomable);
+		System.out.println("Diamants is consomable : " + Diamond.isConsomable);
+		assertEquals(expected1, Diamond.isConsomable);
 		
 		final boolean expected2 = false;
 		System.out.println("Player is consomable : " + Player.isConsomable);
@@ -145,6 +160,9 @@ public class EntityTest {
 		System.out.println("Wall is consomable : " + Wall.isConsomable);
 		assertEquals(expected5, Wall.isConsomable);
 		
+		final boolean expected6 = false;
+		System.out.println("Empty is consomable : " + Empty.isConsomable);
+		assertEquals(expected6, Empty.isConsomable);
 	}
 
 }

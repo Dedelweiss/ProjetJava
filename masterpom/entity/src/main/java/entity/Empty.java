@@ -1,20 +1,12 @@
 package entity;
 
-import java.awt.image.BufferedImage;
-
-/**
- * The class Dirt.
- *
- * @author Mathéo
- */
-
-public class Dirt extends Static{
+public class Empty extends Static {
 	
 	/**
 	*Variable 
 	*
 	*/
-	protected static boolean isExplodable = true;	
+	protected static boolean isExplodable;	
 	/**
 	*Variable 
 	*
@@ -31,14 +23,5 @@ public class Dirt extends Static{
 	*/
 	protected static boolean isConsomable; 
 	
-
-
-
-	@Override
-	public BufferedImage getSprite() {
-
-		return null;
-	}
-
 
 }

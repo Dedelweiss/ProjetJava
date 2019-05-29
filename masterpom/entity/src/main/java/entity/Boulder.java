@@ -32,7 +32,8 @@ public class Boulder extends Mobile{
 	protected static boolean isConsomable; 
 	
 	
-	public Boulder() {
+	public Boulder(Integer x, Integer y) {
+		super(x, y);
 		
 	}
 	

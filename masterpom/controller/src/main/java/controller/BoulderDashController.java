@@ -8,7 +8,7 @@ import contract.IView;
 /**
  * The Class Controller.
  */
-public final class Controller implements IController {
+public final class BoulderDashController implements IController {
 
 	/** The view. */
 	private IView		view;
@@ -22,7 +22,7 @@ public final class Controller implements IController {
 	 * @param view
 	 *          the view
 	 */
-	public Controller(final IView view) {
+	public BoulderDashController(final IView view) {
 		this.setView(view);
 		this.setModel(model);
 	}

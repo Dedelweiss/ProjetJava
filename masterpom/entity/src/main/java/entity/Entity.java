@@ -2,6 +2,9 @@ package entity;
 
 import java.awt.image.BufferedImage;
 
+
+import contract.IEntity;
+
 /**
  * The class Entity.
  *
@@ -31,6 +34,7 @@ public class Entity implements IEntity{
 	*/
 	private boolean isConsomable = false; 
 	
+
 	/**
 	 * The method IsExplodable.
 	 * Pour savoir si l'objet est explosable. 

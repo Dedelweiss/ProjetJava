@@ -9,6 +9,9 @@ import java.awt.image.BufferedImage;
  */
 
 public class Wall extends Static{
+	
+
+
 	/**
 	*Variable 
 	*

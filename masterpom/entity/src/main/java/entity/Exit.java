@@ -9,6 +9,7 @@ import java.awt.image.BufferedImage;
  */
 
 public class Exit extends Static{
+	
 	/**
 	*Variable 
 	*
