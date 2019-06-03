@@ -2,17 +2,15 @@ package contract;
 
 /**
  * The Enum ControllerOrder.
- *
- * @author Jean-Aymeric Diet
  */
 public enum ControllerOrder {
 
-	/** The English. */
+	/** To go to up. */
 	UP,
-	/** The French. */
+	/** To go to down. */
 	DOWN,
-	/** The Deutch. */
+	/** To go to left. */
 	LEFT,
-	/** The Indonesia. */
+	/** To go to right. */
 	RIGHT,
 }

@@ -7,6 +7,7 @@ package contract;
  */
 public interface IView {
 
+	
 	/**
 	 * Prints the message.
 	 *

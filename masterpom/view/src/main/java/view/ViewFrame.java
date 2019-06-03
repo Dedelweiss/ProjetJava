@@ -120,7 +120,7 @@ class ViewFrame extends JFrame implements KeyListener{
 	}
 	
 	/**
-	 * method to when a key was released
+	 * method to know when a key was released
 	 */
 	
 	public void keyReleased(KeyEvent e) {
