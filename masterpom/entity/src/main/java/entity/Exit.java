@@ -8,11 +8,23 @@ package entity;
 
 public class Exit extends Static{
 	
+	/**
+	*Variable 
+	*
+	*/
+	private String Sprite = "Exit.png";
+	/**
+	 * Variable
+	 */
+	
 	private boolean allowed;
+	/**
+	 * Variable
+	 */
 	private boolean reached; 
 	
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	private String Sprite = "Exit.png";
