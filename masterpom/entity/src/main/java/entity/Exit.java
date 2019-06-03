@@ -53,7 +53,7 @@ public class Exit extends Static{
 	}
 	/**
 	 * Assessor
-	 * @return allowed
+	 * @param allowed d
 	 */
 	public void setAllowed(boolean allowed) {
 		this.allowed = allowed;	
@@ -67,7 +67,7 @@ public class Exit extends Static{
 	}
 	/**
 	 * Assessor
-	 * @return reached
+	 * @param reached d
 	 */
 	public void setReached(final boolean reached){
 		this.reached = reached;

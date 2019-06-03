@@ -38,8 +38,8 @@ public class Diamond extends Mobile{
 	
 	/**
 	 * Constructor
-	 * @param x
-	 * @param y
+	 * @param x Coordinat
+	 * @param y Coordinat
 	 */
 	
 	public Diamond(Integer x, Integer y) {

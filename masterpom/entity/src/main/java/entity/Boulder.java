@@ -36,8 +36,8 @@ public class Boulder extends Mobile{
 	
 	/**
 	 * Constructor
-	 * @param x
-	 * @param y
+	 * @param x Coordinat
+	 * @param y Coordinat
 	 */
 	public Boulder(Integer x, Integer y) {
 		super(x, y);

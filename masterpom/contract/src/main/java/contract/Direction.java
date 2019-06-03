@@ -1,4 +1,4 @@
-package model;
+package contract;
 
 /**
  * 
@@ -14,4 +14,5 @@ public enum Direction {
 	DOWN,
 	RIGHT,
 	LEFT
+
 }

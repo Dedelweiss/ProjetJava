@@ -1,5 +1,11 @@
 package entity;
 
+/**
+ * The class Empty.
+ *
+ * @author Mathéo
+ */
+
 public class Empty extends Static {
 	
 	/**

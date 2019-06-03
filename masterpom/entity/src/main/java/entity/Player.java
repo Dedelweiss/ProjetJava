@@ -49,8 +49,8 @@ public class Player extends Mobile{
 	/**
 	 * Constructor,
 	 * set alive to true and diamonds to 0. 
-	 * @param x
-	 * @param y
+	 * @param x Coordinat
+	 * @param y Coordinat
 	 */
 	public Player(Integer x, Integer y) {
 		super(x, y);
@@ -81,7 +81,7 @@ public class Player extends Mobile{
 	
 	/**
 	 * Method when the player is die. 
-	 * @return false
+	 * 
 	 */
 	public void die() {
 

@@ -38,6 +38,7 @@ public class Entity implements IEntity{
 	 * The method IsExplodable.
 	 * To know if the object is explodable. 
 	 * @return false or true according to the class
+	 * @param isExplodable takes the variable according to the class
 	 */
 	public boolean IsExplodable(boolean isExplodable) {
 		
@@ -48,6 +49,7 @@ public class Entity implements IEntity{
 	 * The method IsUnique.
 	 * To know if the object is unique. 
 	 * @return false or true according to the class
+	 * @param isUnique takes the variable according to the class
 	 */
 	@Override
 	public boolean IsUnique(boolean isUnique) {
@@ -59,6 +61,7 @@ public class Entity implements IEntity{
 	 * The method IsMobile.
 	 * To know if the object is mobile. 
 	 *  @return false or true according to the class
+	 *  @param isMobile takes the variable according to the class
 	 */
 	@Override
 	public boolean IsMobile(boolean isMobile) {
@@ -70,6 +73,7 @@ public class Entity implements IEntity{
 	 * The method IsConsomable.
 	 * To know if the object is consomable. 
 	 * @return false or true according to the class
+	 * @param isConsomable takes the variable according to the class
 	 */
 	@Override
 	public boolean IsConsomable(boolean isConsomable) {
@@ -86,8 +90,9 @@ public class Entity implements IEntity{
 	}
 	
 	/**
-	 * Assessor  
-	 * @return isExplodable
+	 * Assessor 
+	 * @param isExplodable takes the variable according to the class 
+	 * 
 	 */
 
 	public void setExplodable(boolean isExplodable) {
@@ -105,7 +110,8 @@ public class Entity implements IEntity{
 	
 	/**
 	 * Assessor  
-	 * @return isUnique
+	 * @param isUnique takes the variable according to the class
+	 *
 	 */
 
 	public void setUnique(boolean isUnique) {
@@ -123,7 +129,7 @@ public class Entity implements IEntity{
 	
 	/**
 	 * Assessor  
-	 * @return isMobile
+	 *  @param isMobile takes the variable according to the class
 	 */
 
 	public void setMobile(boolean isMobile) {
@@ -141,7 +147,7 @@ public class Entity implements IEntity{
 	
 	/**
 	 * Assessor  
-	 * @return isConsomable
+	 *  @param isConsomable takes the variable according to the class
 	 */
 
 	public void setConsomable(boolean isConsomable) {

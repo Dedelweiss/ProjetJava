@@ -17,8 +17,8 @@ public class Mobile extends Entity{
 	
 	/**
 	 * Constructor
-	 * @param x
-	 * @param y
+	 * @param x Coordinat
+	 * @param y Coordinat
 	 */
 	
 	public Mobile(Integer x, Integer y) {
@@ -27,9 +27,9 @@ public class Mobile extends Entity{
 	}
 	
 	/**
-	 * 
-	 * @param x
-	 * @param y
+	 * Set Coordonnees
+	 * @param x Coordinat
+	 * @param y Coordinat
 	 */
 	public void setCoordonnees(final int x, final int y) {
 		this.setX(x);
@@ -38,7 +38,7 @@ public class Mobile extends Entity{
 	
 	/**
 	 * Assessor  
-	 * @return x
+	 * @return x Coordinat
 	 */
 
 	public Integer getX() {
@@ -47,7 +47,7 @@ public class Mobile extends Entity{
 	
 	/**
 	 * Assessor
-	 * @param x
+	 * @param x Coordinat
 	 */
 
 	public void setX(final int x) {
@@ -56,7 +56,7 @@ public class Mobile extends Entity{
 	
 	/**
 	 * Assessor
-	 * @return y 
+	 * @return y Coordinat
 	 */
 
 	public Integer getY() {
@@ -65,7 +65,7 @@ public class Mobile extends Entity{
 	
 	/**
 	 * Assessor
-	 * @param y
+	 * @param y Coordinat
 	 */
 	
 	public void setY(final int y) {
