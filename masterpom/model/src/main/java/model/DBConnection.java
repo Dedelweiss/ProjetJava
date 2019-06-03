@@ -5,15 +5,21 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * The Class DBConnection.
+ * The Class for the DBConnection.
  *
- * @author Jean-Aymeric Diet
+ * @author Leblanc Lucas
  */
 final class DBConnection {
-	/** The instance. */
+	/** 
+	 *The instance.  
+	 */
 	private static DBConnection	INSTANCE	= null;
 
-	/** The connection. */
+	/**
+	 * 
+	 *DBThe connection. 
+	 * 
+	 */
 	private Connection					connection;
 
 	/**

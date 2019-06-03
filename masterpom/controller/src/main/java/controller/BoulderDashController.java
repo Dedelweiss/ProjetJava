@@ -6,7 +6,9 @@ import contract.IModel;
 import contract.IView;
 
 /**
- * The Class Controller.
+ * 
+ *Link between the View and the Model
+ *
  */
 public final class BoulderDashController implements IController {
 

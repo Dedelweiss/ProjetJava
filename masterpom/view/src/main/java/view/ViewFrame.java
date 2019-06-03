@@ -14,6 +14,7 @@ import contract.IModel;
 
 
 /**
+
  * The Class ViewFrame.
  *
  */

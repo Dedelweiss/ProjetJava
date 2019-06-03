@@ -5,25 +5,38 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * The Class DBProperties.
- *
- * @author Jean-Aymeric Diet
+ * The Class for the DBProperties.
+ * Essential attribute of the DBConnection.
+ * @author Leblanc Lucas
  */
 class DBProperties extends Properties {
 
-	/** The Constant serialVersionUID. */
+	/**
+	 * 
+	 * The Constant serialVersionUID.
+	 * 
+	 */
 	private static final long		serialVersionUID			= 5289057445894568927L;
 
-	/** The Constant PROPERTIES_FILE_NAME. */
+	/** 
+	 * The Constant PROPERTIES_FILE_NAME. 
+	 */
 	private final static String	PROPERTIES_FILE_NAME	= "model.properties";
 
-	/** The url. */
+	/**  
+	 * The url.
+	 */
+	
 	private String							url										= "";
 
-	/** The login. */
+	/**  
+	 * The login.
+	 */
 	private String							login									= "";
 
-	/** The password. */
+	/**  
+	 * The password.
+	 */
 	private String							password							= "";
 
 	/**
