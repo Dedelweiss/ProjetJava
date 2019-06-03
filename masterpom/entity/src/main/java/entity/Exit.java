@@ -8,6 +8,9 @@ package entity;
 
 public class Exit extends Static{
 	
+	private boolean allowed;
+	private boolean reached; 
+	
 	/**
 	*Variable 
 	*
