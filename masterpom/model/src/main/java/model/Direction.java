@@ -1,13 +1,4 @@
-package contract;
-
-/**
- * 
- * The enum Direction. 
- * 
- * @author mathéo
- * 
- *
- */
+package model;
 
 /**
  * 
@@ -23,5 +14,4 @@ public enum Direction {
 	DOWN,
 	RIGHT,
 	LEFT
-
 }

@@ -11,96 +11,109 @@ import java.util.Properties;
  */
 class DBProperties extends Properties {
 
-	/** The Constant serialVersionUID. */
-	private static final long		serialVersionUID			= 5289057445894568927L;
-
-	/** The Constant PROPERTIES_FILE_NAME. */
-	private final static String	PROPERTIES_FILE_NAME	= "model.properties";
-
-	/** The url. */
-	private String							url										= "";
-
-	/** The login. */
-	private String							login									= "";
-
-	/** The password. */
-	private String							password							= "";
-
 	/**
-	 * Instantiates a new DB properties.
-	 */
-	public DBProperties() {
-		InputStream inputStream;
+     * 
+     * The Constant serialVersionUID.
+     * 
+     */
+    private static final long serialVersionUID = 5289057445894568927L;
 
-		inputStream = this.getClass().getClassLoader().getResourceAsStream(DBProperties.PROPERTIES_FILE_NAME);
+    /** 
+     * The Constant PROPERTIES_FILE_NAME. 
+     */
+    private final static String PROPERTIES_FILE_NAME = "model.properties";
 
-		if (inputStream != null) {
-			try {
-				this.load(inputStream);
-			} catch (final IOException e) {
-				e.printStackTrace();
-			}
-			this.setUrl(this.getProperty("url"));
-			this.setLogin(this.getProperty("login"));
-			this.setPassword(this.getProperty("password"));
-		}
-	}
+    /**  
+     * The url.
+     */
+    
+    private String url = "";
 
-	/**
-	 * Gets the url.
-	 *
-	 * @return the url
-	 */
-	public String getUrl() {
-		return this.url;
-	}
+    /**  
+     * The login.
+     */
+    private String login = "";
 
-	/**
-	 * Sets the url.
-	 *
-	 * @param url
-	 *          the new url
-	 */
-	private void setUrl(final String url) {
-		this.url = url;
-	}
+    /**  
+     * The password.
+     */
+    private String password = "";
 
-	/**
-	 * Gets the login.
-	 *
-	 * @return the login
-	 */
-	public String getLogin() {
-		return this.login;
-	}
+    /**
+     * Instantiates a new DB properties.
+     */
+    public DBProperties() {
+        InputStream inputStream;
 
-	/**
-	 * Sets the login.
-	 *
-	 * @param login
-	 *          the new login
-	 */
-	private void setLogin(final String login) {
-		this.login = login;
-	}
+        inputStream = this.getClass().getClassLoader().getResourceAsStream(DBProperties.PROPERTIES_FILE_NAME);
 
-	/**
-	 * Gets the password.
-	 *
-	 * @return the password
-	 */
-	public String getPassword() {
-		return this.password;
-	}
+        if (inputStream != null) {
+            try {
+                this.load(inputStream);
+            } catch (final IOException e) {
+                e.printStackTrace();
+            }
+            this.setUrl(this.getProperty("url"));
+            this.setLogin(this.getProperty("login"));
+            this.setPassword(this.getProperty("password"));
+        }
+    }
 
-	/**
-	 * Sets the password.
-	 *
-	 * @param password
-	 *          the new password
-	 */
-	private void setPassword(final String password) {
-		this.password = password;
-	}
+    /**
+     * Gets the url.
+     *
+     * @return the url
+     */
+    public String getUrl() {
+        return this.url;
+    }
+
+    /**
+     * Sets the url.
+     *
+     * @param url
+     *          the new url
+     */
+    private void setUrl(final String url) {
+        this.url = url;
+    }
+/**
+     * Gets the login.
+     *
+     * @return the login
+     */
+    public String getLogin() {
+        return this.login;
+    }
+
+    /**
+     * Sets the login.
+     *
+     * @param login
+     *          the new login
+     */
+    private void setLogin(final String login) {
+        this.login = login;
+    }
+
+    /**
+     * Gets the password.
+     *
+     * @return the password
+     */
+    public String getPassword() {
+        return this.password;
+    }
+
+    /**
+     * Sets the password.
+     *
+     * @param password
+     *          the new password
+     */
+    private void setPassword(final String password) {
+        this.password = password;
+    }
+
 
 }

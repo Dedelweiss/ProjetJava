@@ -4,6 +4,7 @@
  */
 package main;
 
+import controller.BoulderDashController;
 //import contract.ControllerOrder;
 //import controller.Controller;
 import model.Model;
@@ -12,7 +13,7 @@ import view.View;
 /**
  * The Class Main.
  *
- * @author Jean-Aymeric Diet
+ * @author mathéo
  */
 public abstract class Main {
 	
@@ -24,13 +25,12 @@ public abstract class Main {
      *            the arguments
      */
     public static void main(final String[] args) {
-    	//new ApplicationController().launch();
-       // final Model model = new Model();
-       //final View view = new View();
-       //final Controller controller = new Controller(view);
-      // view.setController(controller);
+    	
+        final Model model = new Model();
+       final View view = new View();
+       final BoulderDashController controller = new BoulderDashController(view, null);
+       view.setController(controller);
 
-      //  controller.control();
-      //  controller.orderPerform(ControllerOrder.English);
+      
     }
 }

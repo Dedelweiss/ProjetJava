@@ -24,7 +24,7 @@ class ViewPanel extends JPanel implements Observer {
     
     /**
      * the constructor who linked himself with ViewFrame
-     * @param viewFrame
+     * @param viewFrame the frame
      */
     public ViewPanel(ViewFrame viewFrame) {
         this.setViewFrame(viewFrame);
