@@ -3,22 +3,22 @@ package entity;
 public class Empty extends Static {
 	
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isExplodable;	
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isUnique;
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isMobile; 
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isConsomable; 

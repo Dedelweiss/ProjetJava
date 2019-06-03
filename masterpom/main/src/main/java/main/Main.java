@@ -7,7 +7,6 @@ package main;
 //import contract.ControllerOrder;
 //import controller.Controller;
 import model.Model;
-import src.main.java.nantel.java.boulder.main.ApplicationController;
 import view.View;
 
 /**
@@ -25,7 +24,7 @@ public abstract class Main {
      *            the arguments
      */
     public static void main(final String[] args) {
-    	new ApplicationController().launch();
+    	//new ApplicationController().launch();
        // final Model model = new Model();
        //final View view = new View();
        //final Controller controller = new Controller(view);

@@ -27,9 +27,9 @@ public class EntityTest {
 
 	@Before
 	public void setUp() throws Exception {
-		this.boulder = new Boulder();
-		this.diamants = new Diamond();
-		this.player = new Player();
+		this.boulder = new Boulder(null, null);
+		this.diamants = new Diamond(null, null);
+		this.player = new Player(null, null);
 		this.dirt = new Dirt();
 		this.exit = new Exit();
 		this.wall = new Wall();

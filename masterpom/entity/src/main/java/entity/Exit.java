@@ -1,7 +1,5 @@
 package entity;
 
-import java.awt.image.BufferedImage;
-
 /**
  * The class Exit.
  *
@@ -10,55 +8,67 @@ import java.awt.image.BufferedImage;
 
 public class Exit extends Static{
 	
+	/**
+	*Variable 
+	*
+	*/
+	private String Sprite = "Exit.png";
+	/**
+	 * Variable
+	 */
+	
 	private boolean allowed;
+	/**
+	 * Variable
+	 */
 	private boolean reached; 
 	
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isExplodable;	
 	/**
-	*Variable 
+	*Variable return true
 	*
 	*/
 	protected static boolean isUnique = true;
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isMobile; 
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isConsomable; 
 	
-
-
-
-
-	@Override
-	public BufferedImage getSprite() {
-
-		return null;
-	}
-
-
-
+	/**
+	 * Assessor
+	 * @return allowed
+	 */
 	public boolean isAllowed(){
 		return allowed;
 	}
-
+	/**
+	 * Assessor
+	 * @return allowed
+	 */
 	public void setAllowed(boolean allowed) {
-		this.allowed = allowed;
-		
+		this.allowed = allowed;	
 	}
-
+	/**
+	 * Assessor
+	 * @return reached
+	 */
 	public boolean isReached(){
 		return reached;
 	}
-
+	/**
+	 * Assessor
+	 * @return reached
+	 */
 	public void setReached(final boolean reached){
 		this.reached = reached;
 	}

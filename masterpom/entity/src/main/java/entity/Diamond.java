@@ -14,22 +14,33 @@ public class Diamond extends Mobile{
 	*Variable 
 	*
 	*/
+	private String Sprite = "diamond.png";
+	/**
+	*Variable return false
+	*
+	*/
 	protected static boolean isExplodable;	
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isUnique;	
 	/**
-	*Variable 
+	*Variable return true
 	*
 	*/
 	protected static boolean isMobile = true; 	
 	/**
-	*Variable 
+	*Variable return true
 	*
 	*/
 	protected static boolean isConsomable = true; 
+	
+	/**
+	 * Constructor
+	 * @param x
+	 * @param y
+	 */
 	
 	public Diamond(Integer x, Integer y) {
 		super(x, y);

@@ -1,6 +1,5 @@
 package entity;
 
-import java.awt.image.BufferedImage;
 
 
 import contract.IEntity;
@@ -37,8 +36,8 @@ public class Entity implements IEntity{
 
 	/**
 	 * The method IsExplodable.
-	 * Pour savoir si l'objet est explosable. 
-	 * @return false or true en fonction de la classe
+	 * To know if the object is explodable. 
+	 * @return false or true according to the class
 	 */
 	public boolean IsExplodable(boolean isExplodable) {
 		
@@ -47,8 +46,8 @@ public class Entity implements IEntity{
 	
 	/**
 	 * The method IsUnique.
-	 * Pour savoir si l'objet est unique. 
-	 * @return false or true en fonction de la classe
+	 * To know if the object is unique. 
+	 * @return false or true according to the class
 	 */
 	@Override
 	public boolean IsUnique(boolean isUnique) {
@@ -58,8 +57,8 @@ public class Entity implements IEntity{
 	
 	/**
 	 * The method IsMobile.
-	 * Pour savoir si l'objet est bougeable. 
-	 *  @return false or true en fonction de la classe
+	 * To know if the object is mobile. 
+	 *  @return false or true according to the class
 	 */
 	@Override
 	public boolean IsMobile(boolean isMobile) {
@@ -69,8 +68,8 @@ public class Entity implements IEntity{
 	
 	/**
 	 * The method IsConsomable.
-	 * Pour savoir si l'objet est consomable . 
-	 * @return false or true en fonction de la classe
+	 * To know if the object is consomable. 
+	 * @return false or true according to the class
 	 */
 	@Override
 	public boolean IsConsomable(boolean isConsomable) {
@@ -78,39 +77,72 @@ public class Entity implements IEntity{
 		return isConsomable;
 	}
 	
-	@Override
-	public BufferedImage getSprite() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+	/**
+	 * Assessor  
+	 * @return isExplodable
+	 */
 	public boolean isExplodable() {
 		return isExplodable;
 	}
+	
+	/**
+	 * Assessor  
+	 * @return isExplodable
+	 */
 
 	public void setExplodable(boolean isExplodable) {
 		this.isExplodable = isExplodable;
 	}
+	
+	/**
+	 * Assessor  
+	 * @return isUnique
+	 */
 
 	public boolean isUnique() {
 		return isUnique;
 	}
+	
+	/**
+	 * Assessor  
+	 * @return isUnique
+	 */
 
 	public void setUnique(boolean isUnique) {
 		this.isUnique = isUnique;
 	}
+	
+	/**
+	 * Assessor  
+	 * @return isMobile
+	 */
 
 	public boolean isMobile() {
 		return isMobile;
 	}
+	
+	/**
+	 * Assessor  
+	 * @return isMobile
+	 */
 
 	public void setMobile(boolean isMobile) {
 		this.isMobile = isMobile;
 	}
+	
+	/**
+	 * Assessor  
+	 * @return isConsomable
+	 */
 
 	public boolean isConsomable() {
 		return isConsomable;
 	}
+	
+	/**
+	 * Assessor  
+	 * @return isConsomable
+	 */
 
 	public void setConsomable(boolean isConsomable) {
 		this.isConsomable = isConsomable;

@@ -1,6 +1,6 @@
 package entity;
 
-import java.awt.image.BufferedImage;
+
 
 /**
  * The class Player.
@@ -9,34 +9,49 @@ import java.awt.image.BufferedImage;
  */
 
 public class Player extends Mobile{
-	private int diamonds;
-
-	private boolean alive;
+	
 	/**
 	*Variable 
+	*
+	*/
+	private String Sprite = "Player.png";
+	/**
+	*Variable 
+	* 
+	*/
+	private int diamonds;
+	/**
+	*Variable 
+	*
+	*/
+	private boolean alive;
+	/**
+	*Variable return false
 	*
 	*/
 	protected static boolean isExplodable;
 	/**
-	*Variable 
+	*Variable return true
 	*
 	*/
 	protected static boolean isUnique = true;
 	/**
-	*Variable 
+	*Variable return true
 	*
 	*/
 	protected static boolean isMobile = true; 
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isConsomable; 
 	
 	/**
-	 * Constructor 
+	 * Constructor,
+	 * set alive to true and diamonds to 0. 
+	 * @param x
+	 * @param y
 	 */
-	
 	public Player(Integer x, Integer y) {
 		super(x, y);
 
@@ -45,13 +60,9 @@ public class Player extends Mobile{
 		this.diamonds = 0;
 		
 	}
-
-	@Override
-	public BufferedImage getSprite() {
-		
-		return null;
-	}
-	
+	/**
+	 * Method that increases the number of diamond by 1.
+	 */
 	public void collectDiamond() {
 		this.diamonds = this.diamonds + 1;
 	}
@@ -59,13 +70,19 @@ public class Player extends Mobile{
 	public int getDiamondsCount() {
 		return diamonds;
 	}
-	
+	/**
+	 * Method when the player is alive. 
+	 * @return true
+	 */
 	public boolean isAlive() {
 
 		return alive;
 	}
-
-
+	
+	/**
+	 * Method when the player is die. 
+	 * @return false
+	 */
 	public void die() {
 
 		this.alive = false;

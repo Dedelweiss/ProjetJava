@@ -1,6 +1,6 @@
 package contract;
 
-import java.awt.image.BufferedImage;
+
 /**
  * The interface IEntity.
  *
@@ -9,40 +9,32 @@ import java.awt.image.BufferedImage;
 public interface IEntity {
 	/**
 	 * The method IsUnique.
-	 * Pour savoir si l'objet est unique. 
+	 * To know if the object is unique.
 	 * 
 	 */
 	public boolean IsUnique(boolean isUnique);
 	
 	/**
 	 * The method IsMobile.
-	 * Pour savoir si l'objet est bougeable. 
+	 * To know if the object is mobile. 
 	 *  
 	 */
 	boolean IsMobile(boolean isMobile);
 	
 	/**
 	 * The method IsConsomable.
-	 * Pour savoir si l'objet est consomable . 
+	 * To know if the object is consomable. 
 	 * 
 	 */
 	boolean IsConsomable(boolean isConsomable);
 
 	/**
 	 * The method IsExplodable.
-	 * Pour savoir si l'objet est explosable. 
+	 * To know if the object is explodable. 
 	 * 
 	 */
 	boolean IsExplodable(boolean isExplodable);
 
 	
-
-	/**
-	 * The method getSprite.
-	 * Pour récuperer l'image. 
-	 * @return Sprite
-	 */
-	BufferedImage getSprite();
-
 
 }

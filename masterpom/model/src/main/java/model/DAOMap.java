@@ -1,27 +1,10 @@
 package model;
 
-import java.util.logging.Logger;
 
-import entity.Boulder;
-import entity.Empty;
-import entity.Entity;
-import entity.Exit;
-import entity.Player;
-import entity.Wall;
-import src.main.java.nantel.java.boulder.models.ArrayList;
-import src.main.java.nantel.java.boulder.models.Diamond;
-import src.main.java.nantel.java.boulder.models.Direction;
-import src.main.java.nantel.java.boulder.models.Dirt;
-import src.main.java.nantel.java.boulder.models.EmptySpace;
-import src.main.java.nantel.java.boulder.models.EntityMatrix;
-import src.main.java.nantel.java.boulder.models.EntityMatrix2DArrayImpl;
-import src.main.java.nantel.java.boulder.models.List;
-import src.main.java.nantel.java.boulder.models.Mobile;
-import src.main.java.nantel.java.boulder.models.MovableEntityComparator;
-import src.main.java.nantel.java.boulder.models.SteelWall;
+
 
 public class DAOMap {
-	private EntityMatrix matrix; // the map 
+	/*private EntityMatrix matrix; // the map 
 	private Player player;
 	private Exit exit;
 	private static long serialVersionUID;
@@ -277,6 +260,6 @@ if ( entity.isUnique() ) { // Contournement du pattern singleton
 	//	return 0;
 	//	
 		
-	//}
+	//}*/
 
 }

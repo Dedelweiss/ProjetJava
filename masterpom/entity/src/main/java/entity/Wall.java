@@ -1,6 +1,6 @@
 package entity;
 
-import java.awt.image.BufferedImage;
+
 
 /**
  * The class Wall.
@@ -10,38 +10,31 @@ import java.awt.image.BufferedImage;
 
 public class Wall extends Static{
 	
-
-
 	/**
 	*Variable 
+	*
+	*/
+	private String Sprite = "Wall.png";
+	/**
+	*Variable return false
 	*
 	*/
 	protected static boolean isExplodable;	
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isUnique;
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isMobile; 
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isConsomable; 
 	
-
-
-
-
-	@Override
-	public BufferedImage getSprite() {
-
-		return null;
-	}
-
 
 }

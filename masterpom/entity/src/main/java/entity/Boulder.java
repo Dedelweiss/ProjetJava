@@ -1,6 +1,6 @@
 package entity;
 
-import java.awt.image.BufferedImage;
+
 
 /**
  * The class Boulder.
@@ -9,47 +9,39 @@ import java.awt.image.BufferedImage;
  */
 
 public class Boulder extends Mobile{
+	/**
+	 * Variable 
+	 */
 	private String Sprite = "boulder.png";
 	/**
-	*Variable 
-	*
+	*Variable return false 
+	* 
 	*/
 	protected static boolean isExplodable;
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isUnique;
 	/**
-	*Variable 
+	*Variable return true
 	*
 	*/
 	protected static boolean isMobile = true;
 	/**
-	*Variable 
+	*Variable return false
 	*
 	*/
 	protected static boolean isConsomable; 
 	
-	
+	/**
+	 * Constructor
+	 * @param x
+	 * @param y
+	 */
 	public Boulder(Integer x, Integer y) {
 		super(x, y);
 		
 	}
-	
-	
-
-	/**
-	 *  @return false
-	 */
-	
-	public BufferedImage getSprite() {
-
-		return null ;
-	}
-
-
-
-	
 
 }
