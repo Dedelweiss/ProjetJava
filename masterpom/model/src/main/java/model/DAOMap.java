@@ -1,5 +1,7 @@
 package model;
 
+import entity.Boulder;
+
 public class DAOMap {
 	private EntityMatrix matrix;
 	private Rockford rockford;

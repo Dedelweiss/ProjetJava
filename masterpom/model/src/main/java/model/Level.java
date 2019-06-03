@@ -1,5 +1,9 @@
 package model;
 
+import java.util.logging.Logger;
+
+import entity.Entity;
+
 public class Level {
 	private int DiamondsToWin;
 	private boolean pause;
