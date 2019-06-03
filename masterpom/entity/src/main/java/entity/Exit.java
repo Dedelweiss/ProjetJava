@@ -10,6 +10,9 @@ import java.awt.image.BufferedImage;
 
 public class Exit extends Static{
 	
+	private boolean allowed;
+	private boolean reached; 
+	
 	/**
 	*Variable 
 	*
@@ -42,4 +45,21 @@ public class Exit extends Static{
 	}
 
 
+
+	public boolean isAllowed(){
+		return allowed;
+	}
+
+	public void setAllowed(boolean allowed) {
+		this.allowed = allowed;
+		
+	}
+
+	public boolean isReached(){
+		return reached;
+	}
+
+	public void setReached(final boolean reached){
+		this.reached = reached;
+	}
 }
